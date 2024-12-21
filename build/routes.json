@@ -33982,6 +33982,19 @@
         "maintainers": [],
         "location": "gz/index.ts"
       },
+      "/hainan/iitb/tzgg": {
+        "path": "/hainan/iitb/tzgg",
+        "categories": [
+          "government"
+        ],
+        "example": "/gov/hainan/iitb/tzgg",
+        "url": "iitb.hainan.gov.cn/iitb/tzgg/list2.shtml",
+        "name": "通知公告",
+        "maintainers": [
+          "p3psi-boo"
+        ],
+        "location": "hainan/iitb/tzgg.ts"
+      },
       "/hebei/czt/xwdt/:category?": {
         "path": "/hebei/czt/xwdt/:category?",
         "categories": [
@@ -46354,6 +46367,93 @@
     "name": "即刻",
     "url": "m.okjike.com",
     "lang": "zh-CN"
+  },
+  "jimmyspa": {
+    "routes": {
+      "/books/:language": {
+        "path": "/books/:language",
+        "categories": [
+          "design"
+        ],
+        "view": 0,
+        "example": "/jimmyspa/books/tw",
+        "parameters": {
+          "language": {
+            "description": "语言",
+            "options": [
+              {
+                "value": "tw",
+                "label": "臺灣正體"
+              },
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "jp",
+                "label": "日本語"
+              }
+            ]
+          }
+        },
+        "radar": [
+          {
+            "source": [
+              "www.jimmyspa.com/:language/Books"
+            ]
+          }
+        ],
+        "name": "Books",
+        "description": "\n| language | Description |\n| ---   | ---   |\n| tw | 臺灣正體 |\n| en | English |\n| jp | 日本語 |\n    ",
+        "maintainers": [
+          "FYLSen"
+        ],
+        "location": "books.ts"
+      },
+      "/news/:language": {
+        "path": "/news/:language",
+        "categories": [
+          "design"
+        ],
+        "view": 2,
+        "example": "/jimmyspa/news/tw",
+        "parameters": {
+          "language": {
+            "description": "语言",
+            "options": [
+              {
+                "value": "tw",
+                "label": "臺灣正體"
+              },
+              {
+                "value": "en",
+                "label": "English"
+              },
+              {
+                "value": "jp",
+                "label": "日本語"
+              }
+            ]
+          }
+        },
+        "radar": [
+          {
+            "source": [
+              "www.jimmyspa.com/:language/News"
+            ]
+          }
+        ],
+        "name": "News",
+        "description": "\n| language | Description |\n| ---   | ---   |\n| tw | 臺灣正體 |\n| en | English |\n| jp | 日本語 |\n    ",
+        "maintainers": [
+          "FYLSen"
+        ],
+        "location": "news.ts"
+      }
+    },
+    "name": "幾米 JIMMY S.P.A. Official Website",
+    "url": "www.jimmyspa.com",
+    "lang": "zh-TW"
   },
   "jin10": {
     "routes": {
