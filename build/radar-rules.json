@@ -26528,6 +26528,48 @@
         "target": "/qq/fact"
       }
     ],
+    "lol": [
+      {
+        "title": "综合",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news/index.shtml"
+        ],
+        "target": "/qq/lol/news/23"
+      },
+      {
+        "title": "公告",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news/index.shtml"
+        ],
+        "target": "/qq/lol/news/24"
+      },
+      {
+        "title": "赛事",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news/index.shtml"
+        ],
+        "target": "/qq/lol/news/25"
+      },
+      {
+        "title": "攻略",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news/index.shtml"
+        ],
+        "target": "/qq/lol/news/27"
+      },
+      {
+        "title": "社区",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/news/index.shtml"
+        ],
+        "target": "/qq/lol/news/28"
+      }
+    ],
     "pd": [
       {
         "title": "腾讯频道",
@@ -30739,7 +30781,7 @@
       }
     ]
   },
-  "taoguba.com.cn": {
+  "tgb.cn": {
     "_name": "淘股吧",
     ".": [
       {
@@ -30750,15 +30792,6 @@
           "/"
         ],
         "target": "/taoguba/blog/:id"
-      },
-      {
-        "title": "用户博客",
-        "docs": "https://docs.rsshub.app/routes/finance",
-        "source": [
-          "/blog/:id",
-          "/"
-        ],
-        "target": "/taoguba/user/:id"
       }
     ]
   },
